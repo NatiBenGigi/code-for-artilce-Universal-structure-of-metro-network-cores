@@ -29,7 +29,7 @@ stations (network nodes) and **E** the number of links.
 | `Fig 2_a_b The N_L relationship` | `plot_metro_NL.py` | Fig. 2a and 2b — N against L for each dataset, with the least-squares fit N = a·L². Only systems with L ≥ 3 are kept, since below three lines a metro cannot be described as a network. |
 | `Fig 3_a_b The calculated N_L relationship` | `N_calculated_vs_observed.py` | Fig. 3a and 3b — N calculated from Eq. (1), N = 0.27·L², against the mean observed N. For each value of L the observed N is averaged over all systems with that many lines. |
 | `Fig 4 Paris example` | `plot_correspondances.py` | Fig. 4 — new transfer stations against the number of lines, over the history of the Paris Metro. |
-| `Fig 5_6_7 The E, N,L` | `The_E_N_L_relation.py` | Figs. 5, 6 and 7 — β = E/N and γ = E/3(N−2) against L, then the difference 2 − β against L and against N. Uses E from Eq. (3), E = 2N − L. Self-collected data. |
+| `Fig 5_6_7 The E N L` | `The_E_N_L_relation.py` | Figs. 5, 6 and 7 — β = E/N and γ = E/3(N−2) against L, then the difference 2 − β against L and against N. Uses E from Eq. (3), E = 2N − L. Self-collected data. |
 
 ## Running
 
@@ -46,7 +46,7 @@ file:
 python3 "Fig 2_a_b The N_L relationship/plot_metro_NL.py"
 python3 "Fig 3_a_b The calculated N_L relationship/N_calculated_vs_observed.py"
 python3 "Fig 4 Paris example/plot_correspondances.py"
-python3 "Fig 5_6_7 The E, N,L/The_E_N_L_relation.py"
+python3 "Fig 5_6_7 The E N L/The_E_N_L_relation.py"
 ```
 
 Each script prints its fitted parameters to the console and opens the figures
