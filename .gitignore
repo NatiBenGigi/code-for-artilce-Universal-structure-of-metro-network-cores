@@ -1,0 +1,12 @@
+# Generated figures — every PNG is reproducible by running the scripts
+*.png
+
+# Working drafts, superseded by the figure folders
+Drafts/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
