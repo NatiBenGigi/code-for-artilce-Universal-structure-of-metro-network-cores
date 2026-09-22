@@ -3,7 +3,7 @@
 
 Produces three figures, all from the self-collected dataset:
 
-  fig_beta_gamma_self_collected.png
+  fig5_beta_gamma_self_collected.png
       Fig. 5 - beta = E/N (black triangles) and gamma = E/3(N-2)
       (red circles) versus the number of lines L, with E from Eq. (3):
       E = 2N - L. A dotted reference line marks beta = 2.
@@ -104,7 +104,7 @@ make_figure(
     selfc["Lines"].to_numpy(dtype=float),
     selfc["N"].to_numpy(dtype=float),
     "self-collected (this work)",
-    BASE_DIR / "fig_beta_gamma_self_collected.png",
+    BASE_DIR / "fig5_beta_gamma_self_collected.png",
     "Fig. 5 - beta, gamma vs L - self-collected",
 )
 
