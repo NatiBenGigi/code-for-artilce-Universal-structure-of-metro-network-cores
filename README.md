@@ -64,3 +64,7 @@ Reproduced by the scripts above:
 | Paris, new transfer stations per line (through origin) | 0.538 |
 | k in Eq. (6), 2 − β = 3.7k/L | 0.81 |
 | k in Eq. (7), 2 − β = k(3.7/N)^0.5 | 0.96 |
+
+## Licence
+
+Released under the GNU General Public License v3.0 — see [`LICENSE`](LICENSE).
